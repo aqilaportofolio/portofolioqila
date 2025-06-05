@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+.left-panel {
+    flex: 0 0 35%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative; 
+    background-color: #f5e0e0; 
+    height: 90px;
+}
+
+.navbar-left {
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.navbar-left p {
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.right-panel {
+    flex: 1;
+    background-color: #f5e0e0; 
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px; 
+    box-sizing: border-box;
+    position: relative;
+    width: 10px;
+    height: 90px;
+}
+
+.navbar-right {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+}
+
+.navbar-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px; 
+}
+
+.navbar-right li a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.95em;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navbar-right li a:hover {
+    color: #333;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fff8f5;
+  color: #3a1f0e;
+  text-align: center;
+}
+
+.container1 {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -600px;
+}
+
+.container1 h1 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  color: #5c3226;
+}
+
+.project {
+  display: block;
+  margin-bottom: 40px;
+
+}
+
+.project img {
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+}
